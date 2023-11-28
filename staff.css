@@ -1,0 +1,67 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style the staff section */
+section {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+main section h2 {
+    font-size: 45px;
+    text-align: center;
+}
+
+/* Style individual staff members */
+.staff-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.staff-member:hover {
+    border-color: #ff9900; /* Change border color on hover */
+}
+
+.staff-member img {
+    width: 220px; /* Adjust image width */
+    height: 220px; /* Adjust image height */
+    border-radius: 50%; /* Make the image round */
+    margin-right: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect on images */
+.staff-member img:hover {
+    transform: scale(1.1); /* Scale the image on hover */
+}
+
+/* Style staff member details */
+.staff-member div {
+    flex: 1;
+}
+
+.staff-member h3 {
+    margin-bottom: 5px;
+    font-size: 30px;
+    color: #333;
+}
+
+.staff-member p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 5px;
+}

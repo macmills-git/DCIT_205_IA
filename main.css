@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins",Arial, Helvetica, sans-serif;
+}
+
+/* External CSS file styles */
+
+/* General styles */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.video-container {
+    position: relative;
+}
+
+.bg-video {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.hero-text h2 {
+    font-size: 50px;
+    margin: 0;
+    background-color: #fff;
+    opacity: 50%;
+    color: #000;
+    border-radius: 10px;
+}
+
+
+/* Begin of Section*/
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.featured-programs {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.program {
+    display: flex;
+    margin-bottom: 30px;
+    max-width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.last-image {
+    display: block;
+    margin: 0 auto;
+    height: max-content;
+}
+
+.program-details {
+    flex: 1;
+    padding: 20px;
+}
+
+.program-details h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.program-details p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.program-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.program-image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Additional enhancements */
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Add more styles or animations as needed */
+
+
+/*End of section*/

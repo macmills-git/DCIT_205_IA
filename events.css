@@ -1,0 +1,60 @@
+
+.events-section {
+    margin: 20px;
+  }
+  
+  /* Style for individual events */
+  .event {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Style for event images */
+  .event img {
+    width: 800px; /* Adjust image width as needed */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for event headings */
+  .event h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size:  3rem;
+    text-align: center;
+    color: #2c2a58;
+  }
+  
+  /* Style for event details */
+  .event p {
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+  }
+  
+  /* Style for event dates */
+  .event p:nth-of-type(1) {
+    font-weight: bold;
+  }
+  
+  /* Style for event locations */
+  .event p:nth-of-type(4) {
+    font-style: italic;
+  }
+  
+  /* Optional hover effect */
+  .event:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  

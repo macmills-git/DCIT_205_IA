@@ -1,0 +1,70 @@
+/* General Styles */
+.blog-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+  main .blog-section h2 {
+    font-size: 3.5rem;
+    color: #2c2a58;
+  }
+
+  a {
+    text-align: center;
+    text-decoration: none;
+    color: #bd9c6c;
+    font-weight: 600;
+    border: 2px solid #2c2a58;
+    padding:  1px 20px;
+    margin-top:  20px;
+    border-radius: 50px;
+  }
+
+  a:hover {
+    background-color: #2c2a58;
+    color: white;
+  }
+  
+  .blog-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .blog-post {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-image {
+    max-width: 100%;
+    border-radius: 6px;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .blog-list {
+      grid-template-columns: 1fr;
+    }
+    .blog-post {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Animations */
+  .blog-image {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .blog-image:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Other cool effects and animations can be added based on specific requirements */
+  

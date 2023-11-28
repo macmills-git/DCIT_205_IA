@@ -1,0 +1,68 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Resource cards */
+.resource {
+    display: flex;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 45px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resource img {
+    width: 500px;
+    height: auto;
+    border-radius: 8px 0 0 8px;
+    object-fit: cover;
+}
+
+.resource div {
+    padding: 20px;
+}
+
+.resource h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.resource p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.resource a {
+    color: #fff;
+    background-color: #2c2a58;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.resource a:hover {
+    background-color: #bd9c6c;
+}

@@ -1,0 +1,68 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the research section */
+#research {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Style individual research topics */
+.research-topic {
+    max-width: 85%;
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease-in-out;
+    text-align: center;
+}
+
+.research-topic:hover {
+    border-color: #bd9c6c; /* Change border color on hover */
+}
+
+.research-topic img {
+    width: 200px; /* Adjust image width */
+    height: 200px; /* Maintain aspect ratio */
+    border-radius: 10px; /* Make the image round */
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect on images */
+.research-topic img:hover {
+    transform: scale(1.1); /* Scale the image on hover */
+}
+
+.research-topic h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.research-topic p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.research-topic a {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2c2a58;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.research-topic a:hover {
+    background-color: #151164; /* Change background color on hover */
+}

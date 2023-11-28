@@ -1,0 +1,76 @@
+
+/* Style the main-section */
+.main-section {
+    width: 100%;;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the logo */
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the hero section */
+#hero {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Style the hero text */
+.hero-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style the h2 */
+.h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style the content sections */
+.about-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+/* Style the images to fit the screen */
+.about-section img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Ensures images behave as block-level elements */
+}
+
+/* Make images responsive within the hero section */
+#hero img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.highlight {
+    color: #ff9900;
+    font-weight: bold;
+}
+
+a {
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
